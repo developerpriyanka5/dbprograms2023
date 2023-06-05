@@ -1,0 +1,125 @@
+Internship- Trainee Java Application Developer
+---------------------------------------------------
+Assignment 1st
+--------------------
+
+Create table Mobiles
+(
+ prodid varchar(30) primary key,
+ modelnm varchar(50),
+ company varchar(30),
+ connectivity varchar(20),
+ ram varchar(20),
+ rom varchar(20),
+ color varchar(50),
+ screen varchar(50),
+ battery varchar(30),
+ processor varchar(50),
+ price float,
+ rating float);
+
+
+-----------------------------------------------------------------------------------------------
+insert into Mobiles values('Nokia1','Nokia C01','Nokia','4G','2GB','16GB','Grey','5.45HD+Screen','3000','',5199,3.3);
+insert into Mobiles values('Samsung','Samsung Galaxy A52','Samsung','5G','8GB','128GB','black','6.5 inches','4500mAH lithium-ion','SDM720G(2 x 2.3GHz + 6 x 1.8GHz)octa core',23199,3.9);
+
+insert into Mobiles values('Samsung1','GALAXY S21 FE','Samsung','5G','8GB','128GB','Lavender','6.4-inch','4500mAh','Android 12.0',35999,3.5);
+insert into Mobiles values('Samsung2','Galaxy A23','Samsung','4G','6GB','128GB','Blue','lcd display','5000mAh','Android 12.0',14873,3.5);
+insert into Mobiles values('Samsung3','Samsung M04','Samsung','4G','4GB','64GB','Light Green','6.5-inch','5000 mAh','MediaTek Helio P35 Octa-core',8499,3.9);
+insert into Mobiles values('Samsung4','S22 Ultra 5G','Samsung','5G','12GB','256GB','Phantom Black,','AMOLED 2x display','5000mAh','octa core',86390,4.4);
+insert into Mobiles values('Samsung5','Galaxy S23 5G','Samsung','5G','8GB','128GB','cream','5.45HD+Screen','3900mAh','8 Gen 2 Prcessor',74998,3.3);
+insert into Mobiles values('Samsung6','S23 Ultra 5G','Samsung','5G','12GB','512GB','Phantom Black','(6.8 inch) Quad HD','5000mAh','8 Gen 2 Processor',134000,4.3);
+
+
+insert into Mobiles values('OnePlus1','OnePlus 11 5G','OnePlus','5G','16GB','256GB','Titan Black','120Hz AMOLED QHD','‎5000mAh','Snapdragon 8 Gen2 ',61999,4.3);
+
+insert into Mobiles values('OnePlus2','OnePlus Nord CE3 Lite 5G','OnePlus','5G','8GB','128GB','Pastel Lime','6.72Inches 120Hz Adaptive','5000mAh','Qualcomm Snapdragon695 5G',61999,4.0);
+
+insert into Mobiles values('OnePlus3','OnePlus 11R 5G','OnePlus','5G','16GB','256GB','Galactic Silver','120Hz Super Fluid AMOLED','5000mAh','Snapdragon 8 Gen1',44999,4.0);
+
+insert into Mobiles values('OnePlus4','OnePlus 11','OnePlus','5G','8GB','128GB','Blue','6.5inches','5000mAh','Snapdragon 8 Gen1',56999,4.3);
+
+
+insert into Mobiles values('Oppo1','A17k','Oppo','4G','3GB','64GB','Blue','6.5 inches','‎5000mAh','MediaTek P35',9499,4.1);
+insert into Mobiles values('Oppo2','A57','Oppo','4G','4GB','64GB','Glowing Green','6.56 inches','‎5000mAh',' MediaTek Helio G35',13999,3.9);
+insert into Mobiles values('Oppo3',' Reno7 5G','Oppo','5G','8GB','256GB','Starry Black','6.57 inches','‎4500mAh','MediaTek P35',21899,3.4);
+insert into Mobiles values('Oppo4','Reno 6 Pro 5G','Oppo','5G','12GB','256GB','Stellar Black','6.55 inches','‎4500mAh','MediaTek Dimensity 1200',31799,3.3);
+
+
+insert into Mobiles values('Xiaomi1','11 Lite NE 5G','Xiaomi','5G','8GB','128GB','Jazz Blue','10-bit AMOLED ','‎5000mAh','Kryo 670 Octa-core',28999,4.0);
+insert into Mobiles values('Xiaomi2','Mi 11X 5G','Xiaomi','5G','6GB','128GB','Cosmic Black',' AMOLED Dot display','4520 mAH','Snapdragon 870 5G',18999,3.8);
+insert into Mobiles values('Xiaomi3','K50i 5G','Xiaomi','5G','6GB','128GB','Quick Silver','144Hz Fluid Dolby','‎ 5080mAh','5G Dimensity8100 SoC ',20999,4.0);
+
+insert into Mobiles values('Xiaomi4','Redmi Note 12 5G','Xiaomi','5G','4GB','128GB','Mystique Blue ','Super AMOLED','‎5000mAh','Octa-core 5G',16999,3.8);
+
+
+insert into Mobiles values('Realme1','narzo N53','Realme','4G','4GB','64GB','Feather Gold','slim and sleek 7.49mm ','‎5000mAh','',8999,4.4);
+insert into Mobiles values('Realme2','realme narzo 50A','Realme','4G','4GB','64GB','Oxygen Blue','6.5 inch HD','‎6000mAh','Helio G85',11499,4.2);
+insert into Mobiles values('Realme3','narzo N55','Realme','4G','6GB','128GB','Prime Blue',' Large 6.72','‎5000mAh','Helio G85 octa-core',12999,4.2);
+insert into Mobiles values('Realme4','narzo 50i Prime','Realme','4G','4GB','64GB','Dark Blue','6.5 inches HD','‎5000mAh','octa-core',7999,4.0);
+
+
+insert into Mobiles values('Honor12','Honor 6','Honor','4G','3GB','32GB','Black','5-inch','‎3000mAh','Android v4.4 KitKat operating system with 1.7GHz Kirin 920 octa core',8350,2.6,'Gamming');
+insert into Mobiles values('Honor13','Honor 9i','Honor','4G','4GB','64GB','Prestige Gold','14.99 cm (5.9 inch) 1080 X 2160','‎3340mAh','Octa Core',19999,4.3,'Personal');
+
+
+insert into Mobiles values('Vivo21','Vivo U20','Vivo','4G','4GB','64GB','Blazing Blue','6.53-inch 1080 x 2340 pixels','‎5000mAh','Qualcomm Snapdragon 675 AIE octa core',21000,4.3,'Battery Backup & Social');
+insert into Mobiles values('Vivo22','Vivo Y15','Vivo','4G','4GB','64GB','Aqua Blue','6.35inch 720 x 1544 pixels','‎5000mAh','MediaTek Helio P22 octa core',18099,4.2);
+insert into Mobiles values('Vivo23','Vivo S1 Pro','Vivo','4G','8GB','128GB','Mystic Black,','6.38 inches 1080 × 2340 pixels','‎4500mAh','2.0GHz Qualcomm Snapdragon 665 octa core',29999,4.3,'Buisiness');
+
+
+insert into Mobiles values('Vivo24','narzo 50i Prime','Vivo','4G','4GB','64GB','Dark Blue','6.5 inches HD','‎5000mAh','octa-core',7999,4.0);
+
+insert into Mobiles values('Vivo25','narzo N53','Vivo','4G','4GB','64GB','Feather Gold','slim and sleek 7.49mm ','‎5000mAh','',8999,4.4);
+
+insert into Mobiles values('Vivo27','narzo N55','Vivo','4G','6GB','128GB','Prime Blue',' Large 6.72','‎5000mAh','Helio G85 octa-core',12999,4.2);
+insert into Mobiles values('Vivo28','narzo 50i Prime','Vivo','4G','4GB','64GB','Dark Blue','6.5 inches HD','‎5000mAh','octa-core',7999,4.0);
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Insert Query
+
+insert into Mobiles values(?,?,?,?,?,?,?,?,?,?,?,?);
+
+============================================================
+Add New Column 
+
+ALTER table Mobiles Add column purpose varchar(50);
+
+==================================================================
+Delete data
+delete from Mobiles where Prodid='" +prodid+ "'";
+
+=========================================================
+
+Descending Data
+Select * from Mobiles order by ram Desc;
+
+=================================================
+Group By Company
+select company, count(modelnm) ,avg(price) ,avg(rating) from Mobiles Group by company; 
+
+==========================================================
+Show list of Mobiles
+select * from Mobiles ;
+
+=====================================
+Show List of Mobiles through Model name
+
+select * from Mobiles where modelnm=?;
+
+==========================================
+Show List of Mobiles by RAM & ROM
+
+select * from Mobiles where ram=? and rom=?;
+==================================================
+Show List of Mobiles by Company
+
+select * from Mobiles where company= ?;
+
+===================================================
+Update Query
+
+Update Mobiles set Price=? where Prodid=?;
+
+====================================================
